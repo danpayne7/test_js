@@ -19,7 +19,7 @@ app.get('/search', (req, res) => {
 });
 
 app.get("/",(req,res) => {
-  res.send('hello')
+  res.send('Hi')
 });
 
 app.listen(PORT, () => {
